@@ -1,8 +1,8 @@
 import React from 'react'
 import "./Programs.css"
-import program_1 from "../../assets/campus img 6.jfif"
-import program_2 from "../../assets/campus img 4.jfif"
-import program_3 from "../../assets/campus img 7.jfif"
+import program_1 from "../../assets/Campus img 6.jfif"
+import program_2 from "../../assets/Campus img 4.jfif"
+import program_3 from "../../assets/Campus img 7.jfif"
 import program_icon_1 from "../../assets/book icon.png"
 import program_icon_2 from "../../assets/local_library.png"
 import program_icon_3 from "../../assets/Graduation_icon.png"
