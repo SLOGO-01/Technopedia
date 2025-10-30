@@ -5,7 +5,7 @@ import "./Contact.css";
 import message_icon from "../../assets/help button3.png";
 import Phone_icon from "../../assets/Mail_Icon-Black.png";
 import mail_icon from "../../assets/call_Icon-Black.png";
-import address_icon from "../../assets/location_icon-Black.png";
+import address_icon from "../../assets/location_Icon-Black.png";
 import white_arrow from "../../assets/arrow_forward_Icon-White.png";
 
 const Contact = () => {
