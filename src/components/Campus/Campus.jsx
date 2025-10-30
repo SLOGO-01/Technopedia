@@ -1,9 +1,9 @@
 import React from "react";
 import "./Campus.css";
-import gallery_1 from "../../assets/pin campus img.jpg";
-import gallery_2 from "../../assets/pin campus img3.jpg";
+import gallery_1 from "../../assets/pin Campus img.jpg";
+import gallery_2 from "../../assets/pin Campus img3.jpg";
 import gallery_3 from "../../assets/xinchang.jfif";
-import gallery_4 from "../../assets/campus img 3.jfif";
+import gallery_4 from "../../assets/Campus img 3.jfif";
 import Arrow_icon from "../../assets/arrow_forward_Icon-White.png";
 
 const Campus = () => {
