@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import "./Testimonials.css";
-import next_icon from "../../assets/arrow_forward_icon-White.png";
-import Back_icon from "../../assets/arrow_back_icon-White.png";
+import next_icon from "../../assets/arrow_forward_Icon-White.png";
+import Back_icon from "../../assets/arrow_back_Icon-White.png";
 import user_1 from "../../assets/Profile_Icon-Black.png";
 import user_2 from "../../assets/Profile_Icon-Black.png";
 import user_3 from "../../assets/Profile_Icon-Black.png";
