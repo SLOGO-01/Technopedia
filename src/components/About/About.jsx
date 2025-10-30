@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import about_img from "../../assets/pin campus img2.jpg";
+import about_img from "../../assets/pin Campus img2.jpg";
 import play_icon from "../../assets/motion_play_icon.png";
 
 const About = ({setPlayState}) => {
