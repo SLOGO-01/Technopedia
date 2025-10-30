@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-scroll";
-import "./navbar.css";
+import "./Navbar.css";
 import logo from "../../assets/technopedia_logo.png";
 import menu_icon from "../../assets/menu_icon.png"
 const Navbar = () => {
