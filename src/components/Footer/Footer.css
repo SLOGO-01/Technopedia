@@ -1,0 +1,32 @@
+.footer{
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgb(166, 160, 160);
+}
+
+.footer ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+/* MEDIA QUERY */
+
+@media (max-width:800px) {
+    .footer{
+      display: block;
+      text-align: center;
+      padding-top: 15px;
+    }
+
+    .footer ul li{
+        margin: 10px;
+    }
+
+    .footer ul{
+        margin-top: 10px;
+    }
+}

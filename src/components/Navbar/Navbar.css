@@ -1,0 +1,162 @@
+nav {
+  width: 100%;
+  height: 75px;
+  /* background: #333; */
+  color: #fff;
+  padding: 4px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+  transition: 0.4s ease-in-out;
+}
+
+.dark-nav {
+  background: #011541;
+}
+
+.logo {
+  width: 130px;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 5px 20px;
+  font-size: 16px;
+}
+
+ul li .react-scroll-link {
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+  padding: 5px 0;
+  cursor: pointer;
+}
+
+ul li .react-scroll-link::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1.5px;
+  background: #007bff; /* Your accent color */
+  left: 0;
+  bottom: 0;
+  transition: width 0.3s ease-in-out;
+}
+
+ul li .react-scroll-link.active::after {
+  width: 100%;
+}
+
+ul li .react-scroll-link:hover::after {
+  width: 100%;
+  transform: scaleX(1);
+}
+
+/* ul li .react-scroll-btn:hover{
+  background-color: #007bff;
+} */
+
+/* The button itself */
+.react-scroll-btn {
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 2px solid #007bff;
+  color: #007bff;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none; /* No underline */
+}
+
+/* Button hover effect */
+.react-scroll-btn:hover {
+  background-color: #fff;
+  border: #fff solid 2px;
+}
+
+/* Underline only on the span inside the button */
+/* .react-scroll-text {
+  position: relative;
+  display: inline-block;
+  color: inherit;
+} */
+
+/* .react-scroll-link.active::after {
+  width: 100%;
+} */
+
+
+.react-scroll-btn.active{
+  background-color: #007bff;
+  border: solid 2px #007bff;
+  color: white;
+}
+
+.react-scroll-btn.active .react-scroll-text::after{
+  display: none;
+}
+
+
+.menu-icon{
+  display: none;
+}
+/* media Query */
+
+@media (max-width:1000px){
+  .logo{
+    width: 100px;
+  }
+
+  nav ul li{
+    margin: 14px 15px;
+  }
+}
+
+@media(max-width:840px){
+  nav{
+    padding: 15px 0px;
+  }
+
+  nav ul{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(50, 48, 48, 0.9);
+    z-index: -1;
+    width: 200px;
+    padding-top: 70px;
+    transition: 0.5s;
+  }
+
+  nav ul li{
+    display: block;
+    margin: 25px 40px;
+  }
+
+  .menu-icon{
+    display: block;
+    width: 30px;
+    cursor: pointer;
+    margin-right: -20px;
+  }
+
+  .hide-mobile-menu{
+    right: -200px;
+}
+}
+
+@media(max-width:480px){
+  .menu-icon{
+    display: block;
+    width: 30px;
+    cursor: pointer;
+    margin-right: -10px;
+  }
+}
