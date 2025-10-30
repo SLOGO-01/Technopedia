@@ -3,8 +3,8 @@ import { useForm, ValidationError } from "@formspree/react";
 import { useEffect, useRef, useState } from "react";
 import "./Contact.css";
 import message_icon from "../../assets/help button3.png";
-import Phone_icon from "../../assets/mail_Icon-Black.png";
-import mail_icon from "../../assets/Call_icon-black.png";
+import Phone_icon from "../../assets/Mail_Icon-Black.png";
+import mail_icon from "../../assets/call_Icon-black.png";
 import address_icon from "../../assets/location_icon-Black.png";
 import white_arrow from "../../assets/arrow_forward_Icon-White.png";
 
